@@ -25,7 +25,7 @@ p {
 aside  { 
     width: 20em;
     margin: 1px;
-    border: 4px color rgb(red, green, blue);
+    border: 4px color black;
     padding: 1px;
     background-color:antiquewhite;
     color:brown;
@@ -36,7 +36,7 @@ aside img {
     height: auto;
 }
 main img {
-    width:  150 px;
+    width: 150px;
     height: auto;
 }
 footer {
