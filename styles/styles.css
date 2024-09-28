@@ -25,7 +25,7 @@ p {
 aside  { 
     width: 20em;
     margin: 1px;
-    border: 4px; color:#000 rgb(rgb(70, 39, 39), green, blue);
+    border: 1px solid rgba(0,0,0,0.2);
     padding: 1px;
     background-color:antiquewhite;
     color:brown;
