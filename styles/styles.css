@@ -19,19 +19,8 @@ h1 {
 main {
     max-width: 640px;
 }
-img {
-    margin: 20px;
-    width: 150px;
-    height: auto;
-    border: 1px solid color= #000;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-p {
-    padding: 0;}
-    main {
-        max-width:  840px;
-    }
+
+    
 aside {
     width: 20em;
     text-align: center;
@@ -39,8 +28,12 @@ aside {
 }
 
 aside img {
+    margin: 20px ;
     width: 150px;
     height: auto;
+    border: 1px solid color(srgb 0 green blue)0,0,0,.1;
+    padding: 2px;
+    box-shadow:0 0 30px gray; ;
 }
 aside h2 {
     position: absolute;
@@ -60,7 +53,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center; 
 }
-/* class selectors*/
+/*class selectors*/
  .box{
     margin: 1rem;
     Border:1px solid rgba(0,0,0,.1);
