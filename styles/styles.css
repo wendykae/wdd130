@@ -53,7 +53,7 @@ aside img {
 aside h2 {
     position: absolute;
     top:20px;
-    left:20px;
+    left: 20px;
 }
 main img {
     float: right;
@@ -79,7 +79,9 @@ footer {
    
  }
  
- header,.grid,footer {
+ header,
+ .grid,
+ footer {
     max-width: 840px;
     margin: 1 auto;
  }
