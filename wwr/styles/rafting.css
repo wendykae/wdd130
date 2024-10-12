@@ -73,11 +73,26 @@ header {
 .grid {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    align-items: center;
     
+   
 }
 nav {
     display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    
+.history {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    
+
+}
+
+
+}
+    
     
 
 
