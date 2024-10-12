@@ -12,6 +12,11 @@
     --nav-hover-link-color:#67BCC1;
     --nav-hover-background-color:#A5929E;
 }
+body {
+    width: 800px;
+    margin: 0;
+    
+}
 h1 {
     
     color: black;
@@ -80,18 +85,18 @@ nav {
     display: flex;
     align-items: center;
     justify-content:  space-around;
+   
     
 .history {
     display: flex;
     align-items: center;
-}
-nav a {
-    
+
+ 
 
 }
 
 
-}
+
     
     
 
