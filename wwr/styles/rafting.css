@@ -105,16 +105,22 @@ nav {
 }
 
     
-
+.advendure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 figure {
     border: thin #0b0c0c;
     display: flex;
-    flex-flow: column;
+    flex-flow:column;
     padding: 5px;
     max-width: 220px;
-    margin: auto;
+    margin: 10px;
+    flex-direction: row;
+    
 
 
 }
@@ -130,8 +136,8 @@ figcaption {
 figure img {
     max-width: 250px;
     max-height: 150px;
+
 }
-    
 
 
 
