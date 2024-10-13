@@ -15,7 +15,7 @@
 body {
     width: 800px;
     margin: 0;
-    
+
 }
 h1 {
     
@@ -85,22 +85,56 @@ nav {
     display: flex;
     align-items: center;
     justify-content:  space-around;
+}
    
     
 .history {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    height: auto;
+    background-color: #cfddde;
+}
+.history h2 {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+.history p {
+    overflow: auto;
+}
 
- 
+    
+
+
+
+figure {
+    border: thin #0b0c0c;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+
 
 }
 
+figcaption {
+    background-color: #A5929E;
+    color: #050505;
+    font: italic;
+    padding: 3px;
+    text-align: center;
 
-
-    
-    
-
-
-    
 }
+figure img {
+    max-width: 250px;
+    max-height: 150px;
+}
+    
+
+
+
+    
+
 
