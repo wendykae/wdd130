@@ -117,10 +117,10 @@ figure {
     display: flex;
     flex-flow:column;
     padding: 5px;
-    max-width: 220px;
+    max-width: 300px;
     margin: 10px;
     flex-direction: row;
-    
+
 
 
 }
@@ -138,8 +138,17 @@ figure img {
     max-height: 150px;
 
 }
-
-
+.footer {
+    display: grid;
+    grid-template-columns: 1fr,3fr;
+    background-color: aqua;
+    
+}
+.sociallinks {
+    display: flex;
+    align-items: flex-end;
+   
+}
 
     
 
