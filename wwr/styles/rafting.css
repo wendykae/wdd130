@@ -23,11 +23,11 @@ h1 {
 }
 p { 
     
-    color:var(--secondary-color);
+    color:black;
     }
 a {
     text-decoration: none;
-    color:black;
+    color: white
 
 
 }
@@ -47,9 +47,9 @@ a {
     left: 200px;
     width: 500px;
     margin: 0;
-    background-color: #A5929E;
-    border: 3px solid black;
-     text-align:center; 
+    background-color: #cfddde;
+    border: 3px solid #5B676C;
+     text-align:center 
 }
 article  {
     position: absolute;
@@ -120,8 +120,8 @@ figure {
 }
 
 figcaption {
-    background-color: #A5929E;
-    color: #050505;
+    background-color:#cfddde
+    color:#0b0c0c
     font: italic;
     padding: 3px;
     text-align: center;
