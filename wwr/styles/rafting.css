@@ -137,6 +137,14 @@ h2 {
     display: flex;
     justify-content: center;
 }
+.sociallinks {
+   justify-content: flex-end; 
+}
+footer p {
+    display: flex;
+    justify-content: center;
+}
+
 
     
 
