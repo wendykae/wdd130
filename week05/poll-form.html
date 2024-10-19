@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-    <h1>forms</h1>
+    <h1>Forms</h1>
 </header>
 <main>
     <form>
         <fieldset>
             <legend>Contact Information</legend>
+        <div class="form-item column2">
             <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname">   
+            <input type="text" id="fullname" name="fullname">
+        </div>
+        <div class="form-item column2">    
             <label for="useremail">Your Email:</label>     
-            <input type="email" id="useremail" name="useremail">        
+            <input type="email" id="useremail" name="useremail">
+        </div>        
         </fieldset>
         <fieldset>
             <legend>Questions</legend>
+        <div class="form-item colunm1">  
             <label for="browser">What is your Favorite internet Browser:</label>
             <select id="browser" name="browser">
                 <option value="chrome">Chrome:</option>
@@ -27,8 +36,11 @@
                 <option selected value="firefox">Firefox:</option>
                 <option value="internet explorer">Internet Explorer:</option>
             </select>
+        </div>
+        <div class="form-item colunm1">
             <label for="pets">Do You Have Pets:</label>
             <input type="checkbox" id="pets" name="pets">
+        </div>
             <label for="feedback">List the places you have lived:</label>
             <textarea id="feedback" name="feedback" rows="4" placeholder="Orem Utah, Austin Texas, Clinton Utah, Westpoint Utah"></textarea>
         </fieldset>
@@ -36,7 +48,7 @@
     </form>
 </main>
 <footer>
-    <p> 2024 | wendy nixon🤠</p>
+    <p>© 2024 | wendy nixon🤠</p>
 </footer>
 </body>
 </html>
