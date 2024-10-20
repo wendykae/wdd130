@@ -5,3 +5,58 @@ body {
     background-color:beige;
 
 }
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 0 auto;
+    width: 400px
+}
+h1{
+    margin: 0 auto;
+    font-size:2rem;
+    color:blueviolet;
+    text-align: center;
+}
+form {
+    position:relative;
+    width:500px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid black;
+    border-radius: 1rem;
+    background-color:cornsilk;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap:.5rem;
+    margin: 1rem;
+    border:  1px solid black;
+    padding: 1rem;
+}
+label, input, button, select, textarea {
+    font-family:Arial, Helvetica, sans-serif;
+}
+input, select, textarea {
+    padding: .2rem;
+    font-size: 1rem;
+}
+button {
+    margin: 1rem;
+    border: none;
+    padding: 1rem;
+    color: rgb(19, 19, 20);
+    background-color:darkgrey;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: blueviolet;
+}
