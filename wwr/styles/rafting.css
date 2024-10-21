@@ -166,7 +166,7 @@ form {
 }
 legend {
     padding: .5rem;
-    color: blueviolet;
+    color: rgb(90, 6, 168);
     font-size: 2rem;
 }
 label, input, button, select, textarea {
