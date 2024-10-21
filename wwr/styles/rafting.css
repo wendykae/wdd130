@@ -107,6 +107,7 @@ nav {
     
 .advendure {
     display: flex;
+
     
 }
 
@@ -152,9 +153,60 @@ footer {
     background-color: var(--nav-background-color); /* Use your variable for consistency */
 }
 
-
-
-
+form {
+    position:relative;
+    width:500px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid black;
+    border-radius: 1rem;
+    background-color:#cfddde;
+    display: grid;
+}
+legend {
+    padding: .5rem;
+    color: blueviolet;
+    font-size: 2rem;
+}
+label, input, button, select, textarea {
+    font-family:Arial, Helvetica, sans-serif;
+}
     
+label {
+    text-align: right;
+    padding: .2rem;
+}
 
+button:hover {
+    background-color: blueviolet;
+}
+fieldset {
+    display: grid;
+    grid-gap:.5rem;
+    margin: 1rem;
+    border:  1px solid black;
+    padding: 1rem;
+}
+.employees {
+display: flex;
+}
+.contact {
+    background-color: #A5929E;
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
 
+}
+.google-map{
+   
+    bottom: 150px;
+    left: 100px;
+    width: 200px;
+    margin: 0;
+    background-color: #cfddde;
+    border: 3px solid #5B676C;
+     text-align:center 
+     
+
+}
