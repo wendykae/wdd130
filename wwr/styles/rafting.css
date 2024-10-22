@@ -152,6 +152,8 @@ footer {
     padding: 1rem; /* Optional: add some padding */
     background-color: var(--nav-background-color); /* Use your variable for consistency */
 }
+footer a:hover {
+    color: #67BCC1; 
 
 form {
     position:relative;
