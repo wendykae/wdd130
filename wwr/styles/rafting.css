@@ -201,9 +201,9 @@ display: flex;
 .google-map{
    
     bottom: 150px;
-    left: 100px;
-    width: 200px;
-    margin: 0;
+    left: 150px;
+    width: 220px;
+    margin: 5px;
     background-color: #cfddde;
     border: 3px solid #5B676C;
      text-align:center 
