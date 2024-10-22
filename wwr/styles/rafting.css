@@ -152,8 +152,6 @@ footer {
     padding: 1rem; /* Optional: add some padding */
     background-color: var(--nav-background-color); /* Use your variable for consistency */
 }
-footer a:hover {
-    color: #67BCC1; 
 
 form {
     position:relative;
@@ -180,7 +178,9 @@ label {
     padding: .2rem;
 }
 
-
+button:hover {
+    background-color: blueviolet;
+}
 fieldset {
     display: grid;
     grid-gap:.5rem;
@@ -203,7 +203,7 @@ display: flex;
     bottom: 150px;
     left: 150px;
     width: 220px;
-    margin: 5px;
+    margin: 5p;
     background-color: #cfddde;
     border: 3px solid #5B676C;
      text-align:center 
