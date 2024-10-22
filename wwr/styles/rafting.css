@@ -180,9 +180,7 @@ label {
     padding: .2rem;
 }
 
-button:hover {
-    background-color: blueviolet;
-}
+
 fieldset {
     display: grid;
     grid-gap:.5rem;
