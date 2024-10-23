@@ -208,17 +208,45 @@ display: flex;
     border: 3px solid #5B676C;
      text-align:center 
      
-
+/*home page*/
 }
-   /*home page*/
-.hero2 h1 {
+.title {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.rafting {
     position:inherit;
-    margin: 1rem;
-    
-    
-    
-    
+    font-size: 3em;
+}
+.grid-container  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px; 
+    padding: 15px;
+    margin: 10px;
+}
+
+.paragraph {
+    grid-column: 3/4;
+    grid-row:1/3;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
     
 }
+
+   
+
+
+.form {
+    margin-bottom: 60px;
+}
+.amazing {
+    color:#67BCC1;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        justify-content: center;
 
 }
