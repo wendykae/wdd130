@@ -233,10 +233,9 @@ display: flex;
     grid-column: 3/4;
     grid-row:1/3;
     font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
     background-color:#cfddde;
     border: solid 3px black;
-    
+
     
 }
 
