@@ -246,7 +246,7 @@ display: flex;
     margin-bottom: 60px;
 }
 .amazing {
-    color:#67BCC1;
+    color:#5B676C;
         grid-column: 2/3;
         grid-row: 2/3;
         justify-content: center;
