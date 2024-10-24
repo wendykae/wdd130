@@ -194,8 +194,15 @@ display: flex;
 .contact {
     background-color: #A5929E;
     display: flex;
-    align-items: center;
+    
     justify-content:  space-around;
+}
+
+.contact h1{
+        position: inherit;
+.info {
+    width: 20px;
+}
 
 }
 .google-map{
@@ -239,9 +246,6 @@ display: flex;
     
 }
 
-   
-
-
 .form {
     margin-bottom: 60px;
 }
@@ -252,3 +256,49 @@ display: flex;
         justify-content: center;
 
 }
+.trippic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px; 
+    padding: 15px;
+    margin: 10px;
+
+}
+.secondpic {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    ;
+}
+.flexbox-item {
+    display: flex;
+}
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #5B676C;
+   
+}
+.flexbox-item-1 {
+    min-height: 100px;
+
+}
+.flexbox-item-2 {
+    min-width: 100px;
+
+}
+    
+.trippic img {
+border:solid  10px #5B676c;
+}
+
+
+.trippic2 img {
+    border: solid 10px #5B676c;
+
+}
+.trippic2 p {
+    background-color: #cfddde;
+    border: solid 5px #5B676C;
+}
+
