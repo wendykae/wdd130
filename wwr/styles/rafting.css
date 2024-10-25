@@ -221,10 +221,13 @@ display: flex;
     align-items:center;
     
 }
-.rafting {
-    position:inherit;
-    font-size: 3em;
-}
+
+    
+  
+    
+   
+    
+
 .grid-container  {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
@@ -258,38 +261,19 @@ display: flex;
     border-radius: 10px;
 
 }
+/*trip page*/
+
 .trippic {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px; 
     padding: 15px;
-    margin: 10px;
+    margin: 10px;}
 
-}
-.secondpic {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    ;
-}
-.flexbox-item {
-    display: flex;
-}
-.flexbox-item {
-    width: 200px;
-    margin: 10px;
-    border: 3px solid #5B676C;
-   
-}
-.flexbox-item-1 {
-    min-height: 100px;
 
-}
-.flexbox-item-2 {
-    min-width: 100px;
 
-}
-    
+
+
 .trippic img {
 border:solid  10px #5B676c;
 }
@@ -304,8 +288,48 @@ border:solid  10px #5B676c;
     border: solid 5px #5B676C;
 }
 
-.book {
-    
 
+.bookatrip {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:inherit;
+    font-size: 3em;
+
+}
+ .figgy {
+    border: solid 5px black;
+ }   
+
+table, th, td {
+    border:2px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 10px;
+    
+    
+}
+
+caption {
+    caption-side:bottom;
+    padding: 10px;
+    font-weight:bold;
+
+}
+thead>tr {
+background-color: antiquewhite;
+
+}
+.rafting {
+    text-align: center;
+}
+
+.hope{
+    display: flex;
+    justify-content: center;
+    
+}
+.bookatrip {
+   margin: 10px;
 
 }
