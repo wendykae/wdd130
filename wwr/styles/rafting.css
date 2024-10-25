@@ -240,6 +240,7 @@ display: flex;
     font-family: "Roboto Mono", monospace;
     background-color:#cfddde;
     border: solid 3px black;
+    padding:20px;
 
     
 }
@@ -300,3 +301,11 @@ border:solid  10px #5B676c;
     border: solid 5px #5B676C;
 }
 
+.book {
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+}
