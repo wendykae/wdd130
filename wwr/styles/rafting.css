@@ -249,10 +249,13 @@ display: flex;
     margin-bottom: 60px;
 }
 .amazing {
-    color:#5B676C;
-        grid-column: 2/3;
+    grid-column: 2/3;
         grid-row: 2/3;
         justify-content: center;
+        padding: 10px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
 
 }
 .trippic {
@@ -302,10 +305,7 @@ border:solid  10px #5B676c;
 }
 
 .book {
-    padding: 10px;
-    background-color: aqua;
-    border: 1px solid black;
-    border-radius: 10px;
+    
 
 
 }
