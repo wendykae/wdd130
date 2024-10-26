@@ -134,7 +134,7 @@ figure img {
 
 }
 
-h2 {
+.bell {
     display: flex;
     justify-content: center;
 }
@@ -218,11 +218,11 @@ display: flex;
 .title {
     display:flex;
     justify-content: center;
-    align-items:center;
-    
+    }
+.rafting {
+    position:inherit;
+    font-size: 3em;
 }
-
-    
   
     
    
@@ -251,21 +251,21 @@ display: flex;
 .form {
     margin-bottom: 60px;
 }
-.amazing {
-    grid-column: 2/3;
-        grid-row: 2/3;
-        justify-content: center;
-        padding: 10px;
-    background-color: aqua;
-    border: 1px solid black;
-    border-radius: 10px;
 
-}
+.book {
+        padding:10px;
+        background-color: aqua;
+        border:1px solid black;
+        border-radius: 10px;
+        height: 30px;
+    }
+
 /*trip page*/
 
 .trippic {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
     gap: 20px; 
     padding: 15px;
     margin: 10px;}
@@ -287,10 +287,13 @@ border:solid  10px #5B676c;
     background-color: #cfddde;
     border: solid 5px #5B676C;
 }
-
+.hope{
+    display: flex;
+    justify-content: center;
+}
+    
 
 .bookatrip {
-    display:flex;
     justify-content: center;
     align-items:center;
     position:inherit;
@@ -320,16 +323,13 @@ thead>tr {
 background-color: antiquewhite;
 
 }
-.rafting {
-    text-align: center;
-}
 
-.hope{
-    display: flex;
-    justify-content: center;
+.amazing {
     
-}
-.bookatrip {
-   margin: 10px;
+  
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: inherit;
 
 }
